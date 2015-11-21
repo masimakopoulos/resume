@@ -12,10 +12,10 @@
       "region": "Attika"
     },
     "profiles": [
-      {
-        "network": "Resume Source",
-        "url": "http://github.com/masimakopoulos/resume",
-        "username": "This Resume is built from this Github Repo"
+{
+        "network": "LinkedIn",
+        "username": "masimakopoulot",
+        "url": "https://gr.linkedin.com/in/masimakopoulos"
       },
       {
         "network": "Twitter",
@@ -41,12 +41,10 @@
         "PaaS & IaaS devops for Azure and DigitalOcean infrastructures",
         "Built various microservices using Node.js and achieving low latency - high throughput scalable infrastructures",
         "Setup Continuous Deployment scenarios across services and infrastuctures",
-        "OrientDB graph database design"
-      ],
-      "technologies": [
-        "Node","AngularJS", "D3", "C#", "WebApi 2", "Ninject", "EF6", "MSSQL", "OrientDB", "ElasticSearch", "Cassandra", 
-        "Redis", "NUnit", "Mocha/Tape", "Socket.io", "Teamcity CI", "Azure PaaS & IaaS", "Puppet", "Powershell", "Webpack"
+        "OrientDB graph database design",
+        "technologies: Node, AngularJS, D3, C#, WebApi 2, Ninject, EF6, MSSQL, OrientDB, ElasticSearch, Cassandra, Redis, NUnit, Mocha/Tape, Socket.io, Teamcity CI, Azure PaaS & IaaS, Puppet, Powershell, Webpack"
       ]
+      
     },
     {
       "company": "Sonak",
@@ -59,10 +57,8 @@
         "Implemented the GIS module for three major C&C applications",
         "Helped the dev team migrate from VB6 to C#",
         "Created a gamified module for 3D visualizing all the 2D mapping artifacts and exporing strategic options in 3D",
-        "Improved C GIS calculation libraries by migrating them to C# and using parallelism to improve performance"
-      ],
-      "technologies": [
-        "C#", "VB6", "C", "SlimDX", "EF4.0", "Oracle 11g", "MapObjects", "ArcGIS", "GDAL", "Mercurial", "TeamCity CI", "InnoSetup", "in-house communication protocols"
+        "Improved C GIS calculation libraries by migrating them to C# and using parallelism to improve performance",
+        "technologies: C#, VB6, C, SlimDX, EF4.0, Oracle 11g, MapObjects, ArcGIS, GDAL, Mercurial, TeamCity CI, InnoSetup, in-house communication protocols"
       ]
     },
     {
@@ -76,10 +72,8 @@
         "Created small and medium size windows & mobile applications for industrial projects",
         "Build various web applications (intranet/internet) and corporate web sites",
         "Consulted on improving production through the use of modern technologies",
-        "SEO, online marketing & campaigns"
-      ],
-      "technologies":[
-        "C#", "MySql", "Actionscript", "Flash", "HTML/CSS", "Drupal"
+        "SEO, online marketing & campaigns",
+        "technologies: C#, MySql, Actionscript, Flash, HTML/CSS, Drupal"
       ]
     }
   ],
@@ -90,7 +84,9 @@
       "studyType": "MBA",
       "startDate": "2004-09-01",
       "endDate": "2006-09-01",
-      "thesis": "The effects of CRM technology in performance of its human resources department sales"
+      "courses": [
+        "Thesis: The effects of CRM technology in performance of its human resources department sales"
+      ]
     },
     {
       "institution": "The University of Birmingham",
@@ -98,8 +94,10 @@
       "studyType": "MSc",
       "startDate": "2003-09-01",
       "endDate": "2004-07-01",
-      "grade": "2-1 with Merit",
-      "thesis": "Forensic Evidence Collection Support System using Portable Technology"
+      "gpa": "2-1 with Merit",
+      "courses":[
+        "Thesis: Forensic Evidence Collection Support System using Portable Technology"
+      ]
     },
     {
       "institution": "The University of Birmingham",
@@ -107,13 +105,15 @@
       "studyType": "BSc",
       "startDate": "2000-09-10",
       "endDate": "2003-07-01",
-      "grade": "2-1 awarded Lambda prize",
-      "thesis": "Khepera miniature robot featuring cockroach behaviour model development through neural-networks and knowledge based systems."
+      "gpa": "2-1 awarded Lambda prize",
+      "courses":[
+        "Thesis: Khepera miniature robot featuring cockroach behaviour model development through neural-networks and knowledge based systems."
+      ]
     }
   ],
   "awards": [
     {
-      "name": "Lambda Prize",
+      "title": "Lambda Prize",
       "date": "2004-02-01",
       "awarder": "The University of Birmingham",
       "summary": "Given to university student showing exceptional and constantly improving performance."
