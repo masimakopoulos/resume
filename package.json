@@ -1,16 +1,22 @@
 {
-  "name": "Steven-Resume",
-  "version": "0.0.0",
-  "description": "Azure TED Continous Integration Demo",
+  "name": "asimakopoulos-resume",
+  "version": "1.0.0",
+  "description": "Resume CI",
   "main": "app.js",
-  "author": {
-    "name": "sedouard",
-    "email": ""
-  },
-  "scripts" : {
-	"test": "node ./node_modules/resume-cli/index.js export index -f html"
+  "author": "m.asimakopoulos@gmail.com",
+  "scripts": {
+    "test": "node ./node_modules/resume-cli/index.js export index -f html"
   },
   "dependencies": {
-    "resume-cli": "^0.3.10"
-  }
+    "resume-cli": "^0.3.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masimakopoulos/resume.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masimakopoulos/resume/issues"
+  },
+  "homepage": "https://github.com/masimakopoulos/resume#readme"
 }
